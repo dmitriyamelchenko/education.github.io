@@ -1,0 +1,15 @@
+img{
+    /*height: 400px;*/
+    object-fit: cover;
+    /*overflow: hidden;*/
+}
+/*img{*/
+    /*object-fit: cover;*/
+/*}*/
+/*body{*/
+    /*background-image: url("../img/fon.png");*/
+/*}*/
+.carousel-slider{
+    height: 400px;
+    /*overflow: hidden;*/
+}

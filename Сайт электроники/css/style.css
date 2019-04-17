@@ -1,0 +1,312 @@
+html, body, div, main, header, aside, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+body {
+    background: black;
+}
+.wrapper{
+    width: 778px;
+    height: 834px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 1px 6px;
+}
+.head{
+    width: 766px;
+    height: 236px;
+    background-color: #839B2E;
+    position: relative;
+}
+.head-stage1{
+    height: 76px;
+    width:100%;
+    background: red;
+}
+.head-logo{
+    width: 244px;
+    height: 77px;
+    background-image: url("../img/main.jpg");
+    margin: 0 auto;
+    float: left;
+}
+.head-head{
+    width: 522px;
+    height: 76px;
+    background-image: url("../img/head-draw.png");
+    float: left;
+}
+.head-head-shopingcart{
+    width: 198px;
+    height: 54px;
+    float: left;
+    border-right: 1px white dashed;
+}
+.head-head-shopingcart span{
+    line-height: 16px;
+    float: right;
+    padding-top: 21px;
+    color: white;
+    font-size: 13px;
+    padding-right: 16px;
+}
+.head-head-lang{
+    width: 144px;
+    height: 54px;
+    float: left;
+    position: relative;
+    border-right: 1px white dashed;
+}
+.head-head-lang span{
+    font-size: 11px;
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    color: white;
+}
+.head-head-lang a{
+    position: relative;
+    top: 36px;
+    right: -17px;
+    margin-right: 13px;
+    float: left;
+}
+.head-head-currencles{
+    width: 179px;
+    height: 54px;
+    float: left;
+}
+.head-head-currencles span{
+    position: relative;
+    top: 19px;
+    font-size: 11px;
+    left: 18px;
+    color: white;
+}
+.head-head-currencles select{
+    min-width: 138px;
+    display: block;
+    margin: 17px 0 0 19px;
+    height: 15px;
+}
+
+.head-stage2 {
+    height: 159px;
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    display: inline-block;
+}
+.head-stage2-nav{
+    width: 244px;
+    /*height: 235px;*/
+    margin: 0;
+    font-family: Tahoma, serif;
+}
+.head-stage2-nav ul{
+    margin: 23px 0px 0 0px;
+    line-height: 21px;
+    font-size: 13px;
+}
+.head-stage2-nav ul li{
+    border-bottom: 1px dotted darkgrey;
+    list-style-type: none;
+    margin-left: -3px;
+}
+.head-stage2-nav ul li:before{
+    content: url("../img/nav-icon-list.png");
+}
+.head-stage2-nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.head-stage2-logo{
+    width:515px;
+    height: 184px;
+    background-image: url("../img/head-draw-logo.png");
+    position: absolute;
+    left: 218px;
+    top: 52px;
+}
+main {
+    width: 766px;
+    height: 530px;
+    background-color: white;
+    padding-left: 31px;
+}
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+footer::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+aside {
+    width: 212px;
+    height: 530px;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+}
+section {
+    width: 523px;
+    height: 530px;
+    background-color: #1f1f1f;
+    float: left;
+    padding: 7px 18px;
+}
+footer {
+    height: 67px;
+    width: 766px;
+    background-color: white;
+}
+.aside-img-upper {
+    background-image: url("../img/browse.jpg");
+    height: 27px;
+    width: 212px;
+
+}
+.aside-ul {
+    padding: 0;
+    margin: 10px 0 0 16px;
+}
+.aside-li {
+    height: 22px;
+    border-bottom: 1px dotted darkgray;
+    font-size: 11px;
+    font-family: Tahoma, sans-serif;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.aside-img-down {
+    background-image: url("../img/details-68.jpg");
+    height: 46px;
+    width: 212px;
+    margin-top: 7px;
+}
+h2 {
+    margin: 0 0 10px 0;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, serif;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+.art1 {
+    background: url("../img/art1.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+}
+.art2 {
+    background: url("../img/art2.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+}
+.art3 {
+    background: url("../img/art3.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+    margin-top: 7px;
+}
+.art4 {
+    background: url("../img/art4.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.art5 {
+    background: url("../img/art5.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+    margin-top: 7px;
+}
+.art6 {
+    background: url("../img/art6.png") no-repeat;
+    height: 152px;
+    width: 240px;
+    background-size: cover;
+    float: left;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.art1 a:first-child, .art2 a:first-child, .art3 a:first-child,
+.art4 a:first-child{
+    display: block;
+    background-image: url("../img/details.jpg");
+    height: 19px;
+    width: 78px;
+    margin: 117px 0 0 26px;
+}
+.art5 a:first-child, .art6 a:first-child  {
+    display: block;
+    background-image: url("../img/details.jpg");
+    height: 19px;
+    width: 78px;
+    margin: 114px 0 0 136px;
+}
+.art1 a:last-child, .art2 a:last-child, .art3 a:last-child,
+.art4 a:last-child {
+    display: block;
+    background-image: url("../img/add-to-cart.jpg");
+    height: 19px;
+    width: 101px;
+    margin: -19px 0 0 116px;
+
+}
+.aside-li a {
+    text-decoration: none;
+    color: black;
+}
+footer div:first-child {
+    background: url("../img/cards.jpg");
+    margin-left: -1px;
+    height: 65px;
+    width: 244px;
+    background-size: cover;
+
+    float: left;
+}
+footer div:last-child {
+    background: url("../img/bg-footer.jpg");
+    height: 65px;
+    width: 523px;
+    float: left;
+}
+footer div p {
+    font-size: 10px;
+    font-family: Tahoma;
+}
+footer div p:first-child {
+    margin: 19px 0 0 31px;
+}
+footer div p:last-child {
+    margin: 4px 0 0 31px;
+}
+footer div p a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+a:hover {
+    color: darkred;
+}

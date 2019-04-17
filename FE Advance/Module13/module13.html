@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./module13.css">
+</head>
+    <body>
+    <div class="task">
+        <h1>Модуль 13 - Домашнее задание</h1>
+        <ul>
+            <li>Соединить доп. задание 1 и 2</li>
+            <li>Напишите функцию validate которая проверяет все поля формы
+                и возвращает результат в виде обьекта со свойствами firstname,
+                lastname и tel.</li>
+            <li>Кроме того, формат объекта: в свойства записывается буль-флаг
+                уведомляющий о статусе прохождения валидации для поля.</li>
+            <li>При клике на кнопку submit должна происходить проверка.</li>
+            <li>Визуализировать результат проверки.
+                Написать функцию showResults(results), которая принимает
+                один аргумент results - объект такого формата который возвращает
+                функция validate, и создает html разметку по результатам
+                этого объекта.</li>
+            <li>showResults добавляет в список с классом .results
+                (уже есть в html), li для каждого поля формы. В li записать:
+                SUCCESS: 'имя поля' passed validation
+                ERROR: 'имя поля' failed validation</li>
+            <li>Для li с положительным результатом дать класс success,
+                с отрицательным error.</li>
+        </ul>
+        <button class = 'module13But'><a href="./mainTask/mainTask13.html">Перейти к решению</a></button>
+        <button class = 'module13But'><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module13/mainTask">Перейти к исходникам</a></button>
+    </div>
+    <div class="task">
+        <h2>Дополнительное задание 1</h2>
+        <p>Напишите функцию validate которая проверяет поля формы
+            firstname и lastname и возвращает результат в виде
+            обьекта со свойствами 'first name' и 'last name'.</p>
+        <p>Кроме того, формат объекта: в свойства записывается буль-флаг
+            уведомляющий о статусе прохождения валидации для каждого поля.</p>
+        <pre>
+                     {
+                     'first name': true или false,
+                     'last name': true или false,
+                     }
+                    </pre>
+
+        <ul>Критерии валидации:
+            <li>1)Имя. Допускается не более 3-х слов, а слова должны состоять
+                только из букв латинского и кириллического алфавита.</li>
+
+            <li>2)Фамилия. Допускается не более 2-х слов, разделенных пробелами,
+                дефисом или пробелами и дефисом. Слова должны состоять только из
+                букв латинского и кириллического алфавита.</li>
+
+            <li>При клике на кнопку submit должна происходить проверка.
+                Результат проверки, объект, выводить в консоль.</li>
+        </ul>
+        <button class = 'module13But'><a href="./additionalTasks/additionalTask1/additionalTask1.html">Перейти к решению</a></button>
+        <button class = 'module13But'><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module13/additionalTasks/additionalTask1">Перейти к исходникам</a></button>
+    </div>
+    <div class="task">
+        <h2>Дополнительное задание 2</h2>
+        <p>Напишите функцию validate которая проверяет поле формы
+            номера телефона tel и возвращает результат в виде обьекта
+            со свойством tel.</p>
+
+        <p>Кроме того, формат объекта: в свойства записывается буль-флаг
+            уведомляющий о статусе прохождения валидации для поля.</p>
+        <pre>
+                {
+                tel: true или false,
+                }
+            </pre>
+        <ol>Критерии валидации:
+            <li> Правильный формат записи начинается с + и содержит 12 цифр от 0 до 9.</li>
+            <li> При вводе допускаются пробелы или дефисы между любыми цифрами.</li>
+            <li> При выводе номер должен быть отформатирован в том же стиле что и номер
+                в placeholder</li>
+
+            <p>При клике на кнопку submit должна происходить проверка.
+                Результат проверки, объект и результирующий номер телефона
+                в правильном фонрмате, выводить в консоль.</p>
+        </ol>
+        <button class = 'module13But'><a href="./additionalTasks/additionalTask2/additionalTask2.html">Перейти к решению</a></button>
+        <button class = 'module13But'><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module13/additionalTasks/additionalTask2">Перейти к исходникам</a></button>
+    </div>
+    </body>
+</html>

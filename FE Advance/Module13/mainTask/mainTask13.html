@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src = './mainTask13.js' defer></script>
+    <link rel="stylesheet" href="./mainTask13.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="task">
+        <h1>Модуль 13 - Домашнее задание</h1>
+        <ul>
+            <li>Соединить доп. задание 1 и 2</li>
+            <li>Напишите функцию validate которая проверяет все поля формы
+                и возвращает результат в виде обьекта со свойствами firstname,
+                lastname и tel.</li>
+            <li>Кроме того, формат объекта: в свойства записывается буль-флаг
+                уведомляющий о статусе прохождения валидации для поля.</li>
+            <li>При клике на кнопку submit должна происходить проверка.</li>
+            <li>Визуализировать результат проверки.
+                Написать функцию showResults(results), которая принимает
+                один аргумент results - объект такого формата который возвращает
+                функция validate, и создает html разметку по результатам
+                этого объекта.</li>
+            <li>showResults добавляет в список с классом .results
+                (уже есть в html), li для каждого поля формы. В li записать:
+                SUCCESS: 'имя поля' passed validation
+                ERROR: 'имя поля' failed validation</li>
+            <li>Для li с положительным результатом дать класс success,
+                с отрицательным error.</li>
+        </ul>
+    </div>
+    <div class="row">
+        <form class="col s12 m6" action="#">
+            <div class="row">
+                <div class="input-field col s9">
+                    <input placeholder="First name" id="first_name" type="text" class="validate">
+                    <label for="first_name"></label>
+                </div>
+                <div class="input-field col s9">
+                    <input placeholder="Last name" id="last_name" type="text" class="validate">
+                    <label for="last_name"></label>
+                </div>
+                <div class="input-field col s9">
+                    <input placeholder="tel +xxx xx xx xx xxx" id="tel" type="text" class="validate">
+                    <label for="tel"></label>
+                </div>
+                <div class="col s9">
+                    <button class="btn waves-effect waves-light" id="submit-btn" type="submit" name="action">Submit</button>
+                </div>
+            </div>
+        </form>
+        <ul class="results col s12">
+        </ul>
+    </div>
+</div>
+</body>
+</html>

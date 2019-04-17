@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./module10.css">
+    <script src = "./module10.js" defer></script>
+</head>
+<body>
+<div class="exerciseHomeWork">
+    <h2>Задание</h2>
+    <ul>
+        <li>Создать компонент счетчика времени.</li>
+        <li>Простой прямоугольник который показывает время
+            со старта упражения и до того момента когда все
+            клавиши были верно нажаты.</li>
+        <li>На входе есть строка символов для упражнения.</p>
+            Написать метод countKPS() который,по окончанию упражнения,
+            возвращает кол-во верных клавишь в секунду которое было нажато за
+            время выполнения упражнения.</li>
+        <li>Записать результат в localStorage, но только в том случае если
+            он лучше чем тот что уже есть в localStorage.</li>
+        <li>При повторном посещении страницы надо брать то что записано
+            в localStorage и вешать на страницу, это будет компонент
+            лучшего результата.</li>
+        <li>Дается строка и от первого нажатия до посленего правильного набранного знака считать время.</li>
+    </ul>
+    <pre>
+        const lang = "qwerty";
+        const string = "qryte";
+        const charsArr = string.split("").reverse();
+        const timerOutput = document.querySelector(".timer");
+    </pre>
+
+    <h2>Ссылка на GitHub</h2>
+    <button class ='module10But'><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module10">Просмотреть исходники</a></button>
+    <h2>Перейти к дополнительным заданиям</h2>
+    <button class ='module10But'><a href="https://codepen.io/collection/DqzZbE/">Доп задания на Codepen</a></button>
+
+
+</div>
+<div class="main">
+    <div class="container">
+        <div>Лучшее время : <p class="bestTime">0</p></div>
+        <div>Время прохождения : <p class="timer">0</p></div>
+        <div>Количество ошибок : <p class="count">0</p></div>
+        <div>Скорость набора : <p class="speedDial">0</p></div>
+    </div>
+    <div class="gameField">
+        <div class="exercise"></div>
+        <input type="text" class = 'usersInput' placeholder="Вводите буквы сюда">
+    </div>
+</div>
+</body>
+</html>

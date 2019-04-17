@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./additionalTask2.css">
+    <script src = './additionalTask2.js' defer></script>
+</head>
+<body>
+<pre style="font-size: 14px">
+      Написать функцию fetchUserData, которая использует apiUrl + текущее значение input для составления запроса.
+
+      Формат полного url таков: https://api.github.com/users/имя-пользователя
+
+      Документация по Git API: https://developer.github.com/v3/
+
+        С помощью fetch сделать запрос по составленому адресу. Обязательно обработать вариант с ошибкой запроса
+    используя catch.
+
+            Результат запроса вывести в поле result в формате:
+            Avatar: аватартка
+            Username: логин
+            Bio: описание профиля
+            Public repos: кол-во открытых репозиториев
+
+      Все необходимые данные есть в ответе от API.
+</pre>
+<div class="container">
+    <form class="search-form">
+        <input type="text" name="country" placeholder="Enter user name">
+        <button class="mdc-btn" type="submit" id="js-submit">search</button>
+    </form>
+    <p class="result"></p>
+</div>
+</body>
+</html>

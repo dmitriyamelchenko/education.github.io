@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    float: left;
+    border:solid 1px;
+    margin: 0 -1px 0 0;
+    outline: none;
+}
+
+.row, .middle, .bottom, .spaceLine{
+    display: inline-block;
+    /*border: solid 1px;*/
+    margin: -0.02em;
+}
+.keyboard{
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+}
+.space{
+    padding: 0.5rem 6.5rem;
+    margin: -1px 0 0 8px;
+}
+.lineBreak{
+    margin:-4px;
+}
+.activeBut{
+    background-color: red;
+}

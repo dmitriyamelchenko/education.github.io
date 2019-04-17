@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+
+}
+img {
+    width: 100%;
+}
+
+.header {
+    min-height: 80px;
+    background: #ffc038;
+}
+
+.header-logo {
+    position: relative;
+    top: 40px;
+    transform: translateY(-50%);
+
+}
+
+.header-search {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    transform: translateY(-50%);
+}
+
+#search {
+    width: 300px;
+    padding-left: 10px;
+    line-height: 40px;
+    border: 1px;
+    outline-style: none;
+    background: rgba(255, 255, 255, 0.47);
+}
+
+#button {
+    line-height: 40px;
+    border: 1px;
+    outline-style: none;
+    width: 100px;
+    position: relative;
+    right: 4px;
+    background: rgba(14, 14, 14, 0.81);
+    color: #fff;
+}
+
+
+
+#basket {
+    position: relative;
+    top: 40px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.73);
+    cursor: pointer;
+    float: left;
+    width: 15%;
+    margin-right: 15px;
+}
+#basket span {
+    color: white;
+}
+
+.wish_list {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.73);
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    margin-right: 15px;
+}
+.wish_list span {
+    color: white;
+}
+
+.wishListBlock{
+    background: yellow;
+    width: 100%;
+    height: 500px;
+}
+
+.user{
+    text-align: center;
+    position: relative;
+    top: 45px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.73);
+    cursor: pointer;
+    float: left;
+    width: 40%;
+}
+
+.user p {
+    color: white;
+}
+
+/*#basketPanel {*/
+    /*max-height: 1100px;*/
+    /*overflow: visible;*/
+/*}*/
+
+#userPanel{
+    background: blue;
+    width: 100%;
+    height: 500px;
+}
+
+.countCardsinBasket {
+    width: 40%;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    background: #ffc0380d;
+    height: 500px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.busketCardsWrap {
+    overflow: auto;
+    height: 1100px;
+}
+
+.countCardsinBasket .smallCardImg {
+    width: 165px;
+    height: 270px;
+}
+
+
+.countCardsinBasket .cardTitle {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.countCardsinBasket .cardAuthor {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.deleteButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+}
+
+
+.minusButton {
+    background: #1f1d1ddb;
+    border: 0;
+    font-size: 21px;
+    width: 25px;
+    color: white;
+    line-height: 25px;
+    border-radius: 100px;
+    outline: none;
+}
+
+
+.plusButton {
+    background: #1f1d1ddb;
+    border: 0;
+    font-size: 21px;
+    width: 25px;
+    color: white;
+    line-height: 25px;
+    border-radius: 100px;
+    outline: none;
+}
+
+.countCardsinBasket span {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+
+.cardItem {
+    height: 100%;
+    width: 14%;
+    background: rgba(204, 204, 204, 0.40);
+    margin: 20px;
+    position: relative;
+}
+
+
+.cardItem h3, .cardItem p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*<<<<<<<<Scroll>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+::-webkit-scrollbar-button {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgoldenrodyellow;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(14, 14, 14, 0.81);
+}
+
+::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<main>>>>>>>>>>>>>>>>>>>>>> */
+.main {
+    /*background: grey;*/
+}
+
+
+/* <<<Category>>>> */
+.nav-category {
+    list-style: none;
+    font-size: 18px;
+}
+
+.nav-category li {
+    cursor: pointer;
+    transition: 0.2s;
+    line-height: 57px;
+    padding-left: 15px;
+
+}
+
+.nav-category li:first-child {
+    background: #ffc038;
+    border: 1px solid;
+}
+
+.nav-category li:hover {
+    background: rgba(255, 192, 56, 0.60);
+    transition: 0.1s;
+    color: #0c0c0c;
+}
+
+.nav_menu {
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.81);
+    background: rgba(14, 14, 14, 0.81);
+    color: #fff;
+    width: 17%;
+    float: left;
+}
+
+/* <<<<<<<<Slider>>>>>> */
+.slider {
+    padding: 0;
+    float: left;
+    width: 83%;
+    position: relative;
+    top: -25px;
+}
+
+.carousel {
+    height: 400px;
+    overflow: hidden;
+}
+
+.button-section {
+    position: relative;
+    left: 20px;
+    top: 40px;
+    z-index: 1;
+    outline: none;
+}
+
+.slide-relative {
+    position: relative;
+}
+
+.slider-button {
+    height: 25px;
+    width: 90px;
+    color: white;
+    border-radius: 4px;
+    border-color: #3b3b3b;
+    background: #3b3b3b;
+    transition: 0.3s;
+    opacity: 0.6;
+    z-index: 2;
+    outline: none;
+}
+
+.slider-button:hover {
+    background: #b5855d;
+    opacity: 1;
+}
+
+.slider-button-color-active {
+    background: #ffc011;
+    opacity: 1;
+}
+/*-----*/
+
+/* <<<<<<Filters>>>>>>>>> */
+.filter {
+    background: #ffc038;
+    height: 50px;
+    position: relative;
+    top: -25px;
+}
+
+.filter ul {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.filter ul li {
+    list-style: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.filter ul li span {
+    margin-right: 10px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Content>>>>>>>>>>>>>>>>>>>> */
+.content {
+    height: 870px;
+    overflow: auto;
+}
+
+#result {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#result .grocery_card {
+    height: 390px;
+    width: 14%;
+    background: #ffc0380d;
+    margin: 20px;
+    position: relative;
+}
+
+.grocery_card .smallCardImg {
+    height: 240px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.grocery_card .details {
+    padding: 10px;
+}
+
+.grocery_card h4, .grocery_card p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    /*position: relative;*/
+    text-overflow: ellipsis;
+}
+
+.grocery_card span {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.grocery_card button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #3b3b3b;
+    border: 0;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    width: 90px;
+
+}
+
+.price_and_over div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #966b1c;
+    border: 0;
+    outline: none;
+    color: #fff;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<Footer>>>>>>>>>>>>>>>>>>>>>> */
+.footer_content div {
+    background: #ffc038;
+    color: #0c0c0c;
+}
+
+
+.bg-primary{
+    height: 165px;
+}
+
+.bottom {
+    background: rgba(14, 14, 14, 0.81);;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.columnStandard {
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.columnStandard ul {
+    list-style: none;
+}
+
+.columnStandard a {
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+
+}
+
+.columnStandard a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+
+.social-right a {
+    float: right;
+    margin-right: 40px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.send-button {
+    height: 200px;
+}
+
+.email_button {
+    line-height: 22px;
+    border: 1px;
+    outline-style: none;
+    position: relative;
+    right: 4px;
+    background: rgba(14, 14, 14, 0.81);
+    color: #fff;
+}
+
+
+#wrap{
+		display: none;
+		opacity: 0.8;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		padding: 16px;
+		background-color: rgba(1, 1, 1, 0.725);
+		z-index: 100;
+		overflow: auto;
+	}
+
+	#window{
+        width: 40%;
+        height: 600px;
+        margin: 50px auto;
+        display: none;
+        background: #fff;
+        z-index: 200;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 16px;
+	}
+
+    #img_popup {
+        width: 300px;
+        height: 600px;
+        float: left;
+    }
+
+  .close{
+		margin-left: 364px;
+		margin-top: 4px;
+		cursor: pointer;
+      width: 20px;
+      height: 20px;
+	}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <article>
+        <h1>Модуль 7 - Дополнительные задания</h1>
+        <section>
+            <h3>Задание 1</h3>
+            <p>Используя <code>createElement</code>, написать функцию <code>createUserCard()</code> которая динамически
+                создает и возвращает дом узел для такой карточки пользователя. Классы оформления добавляем через
+                <code>classList</code>.
+            </p>
+            <img style="margin:0 auto; display: block;" src="./task7-1/img/task-1.png" alt="">
+            <button style="background-color: red; height: 70px; width: 250px; margin: 0 auto; font-size: 25px;
+                    display: block; border-radius: 10px; margin-top: 20px"
+                    id = 'task7-1'>
+                <a style = "text-decoration: none" href="./task7-1/module7-1.html">Просмотреть результат!</a>
+            </button>
+        </section>
+        <section>
+            <h3>Задание 2</h3>
+            <p>Модифицировать <code>createUserCard()</code> так чтобы она использовала не <code>createElement</code>,
+                а возвращала строку с тегами, которую потом можно будет поставить в документ через <code>innerHTML</code>
+                или <code>insertAdjacentHTML</code>.
+            </p>
+            <button style="background-color: red; height: 70px; width: 250px; margin: 0 auto; font-size: 25px;
+                    display: block; border-radius: 10px; margin-top: 20px"
+                    id = 'task7-2'>
+                <a style = "text-decoration: none" href="./task7-2/module7-2.html">Просмотреть результат!</a>
+            </button>
+        </section>
+        <section>
+            <h3>Задание 3</h3>
+            <p>Модифицировать <code>createUserCard(user)</code> так чтобы она принимала объект с данными для заполнения
+                полей в карточке. Используя <code>createUserCard</code> создать карточки для 3-х разных пользователей
+                и повесить их в документ. Формат обьекта указан ниже.
+            </p>
+            <div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em">
+                <pre style="margin: 0; line-height: 125%"><span style="color: #0000aa">const</span> user = {
+              img: <span style="color: #aa5500">'link/to/user-image'</span>,
+              name: <span style="color: #aa5500">'Claudia Cardinale'</span>,
+              age: <span style="color: #009999">29</span>,
+              location: <span style="color: #aa5500">'Philadelphia, PA'</span>,
+              strawberries: <span style="color: #009999">19</span>,
+              lemons: <span style="color: #009999">5</span>
+          };
+                </pre>
+            </div>
+            <button style="background-color: red; height: 70px; width: 250px; margin: 0 auto; font-size: 25px;
+                    display: block; border-radius: 10px; margin-top: 20px"
+                    id = 'task7-3'>
+                <a style = "text-decoration: none" href="./task7-3/module7-3.html">Просмотреть результат!</a>
+            </button>
+        </section>
+    </article>
+</div>
+</body>
+</html>

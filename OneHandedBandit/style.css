@@ -1,0 +1,346 @@
+html, body, div {
+    padding: 0;
+    margin: 0 auto;
+}
+.main-wrapper{
+    background: url("images/jackpot5.jpg") 0 0 no-repeat;
+    -webkit-background-size: 90%;
+    background-size: 90%;
+    width: 740px;
+    height: 800px;
+    position: relative;
+}
+#arrow1 {
+    background: url("images/arrow1.png");
+    height: 23px;
+    width: 18px;
+    position: absolute;
+    background-size: cover;
+    top: 75px;
+    left: 252px;
+    z-index: 2;
+}
+#arrow2 {
+    background: url("images/arrow2.png");
+    height: 22px;
+    width: 17px;
+    position: absolute;
+    background-size: 100%;
+    top: 76px;
+    left: 434px;
+    z-index: 2;
+}
+#wallet {
+    position: absolute;
+    top: 76px;
+    left: 260px;
+    background-color: #020202;
+    width: 104px;
+    height: 21px;
+    color: #d03b1a;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    font-family: 'orbitron', serif;
+    font-size: 10px;
+}
+#money {
+    position: absolute;
+    top: 290px;
+    left: 529px;
+    background-color: #020202;
+    width: 52px;
+    height: 22px;
+    color: #d03b1a;
+    box-sizing: border-box;
+    padding-top: 4px;
+    font-family: 'orbitron', serif;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 5px;
+}
+#rate {
+    position: absolute;
+    top: 76px;
+    left: 376px;
+    background-color: #020202;
+    width: 71px;
+    height: 21px;
+    color: #d03b1a;
+    padding-left: 10px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    font-family: 'orbitron', serif;
+    font-size: 10px;
+}
+#col-1, #col-2, #col-3 {
+    width: 70px;
+    height: 210px;
+    float: left;
+}
+
+.wrap {
+    width: 210px;
+    height: 210px;
+    overflow:hidden;
+    margin: 50px auto;
+    position: absolute;
+    left: 185px;
+    top: 89px;
+    background: #2e2e6a;
+    padding: 1px 30px;
+    box-shadow: 0px 0px 0px 17px #2e2e6a;
+}
+.arr{
+    width: 70px;
+    height: 70px;
+    background-size:100% 100%;
+
+}
+#start{
+    background: url("images/btn.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 359px;
+    right: 224px;
+    -webkit-appearance: none;
+    width: 66px;
+    height: 52px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+}
+.btn{
+    position: absolute;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 999;
+
+}
+#start:active, .btn:active{
+    -webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    -o-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
+
+}
+
+.btn2{
+    background: url("images/btn2.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    bottom: 360px;
+    right: 284px;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 51px;
+}
+.btn3{
+    background: url("images/btn3.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    bottom: 360px;
+    right: 353px;
+    -webkit-appearance: none;
+    width: 58px;
+    height: 49px;
+}
+.btn4{
+    background: url("images/btn4.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    bottom: 360px;
+    right: 407px;
+    -webkit-appearance: none;
+    width: 58px;
+    height: 49px;
+}
+.btn5 {
+    background: url("images/btn5.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    bottom: 361px;
+    right: 526px;
+    -webkit-appearance: none;
+    width: 74px;
+    height: 47px;
+}
+.btn6 {
+    background: url("images/btn6.png") 0 0 no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    bottom: 362px;
+    right: 453px;
+    -webkit-appearance: none;
+    width: 74px;
+    height: 47px;
+}
+
+@font-face {
+    font-family: 'orbitron';
+    src: url('fonts/Orbitron-Medium.ttf');
+}
+.red {
+    position: absolute;
+    top: 200px;
+    left: 357px;
+    font-size: 60px;
+    font-family: crystal;
+}
+#hor3-1 {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 210px;
+
+}
+#hor3-2 {
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    width: 210px;
+
+}
+#hor3-3 {
+    position: absolute;
+    top: 165px;
+    left: 30px;
+    width: 210px;
+
+}
+#hor12-1 {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 140px;
+
+}
+#hor23-1 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 140px;
+}
+#hor12-2 {
+    position: absolute;
+    top: 95px;
+    left: 30px;
+    width: 140px;
+
+}
+#hor23-2 {
+    position: absolute;
+    top: 95px;
+    left: 100px;
+    width: 140px;
+
+}
+#hor12-3 {
+    position: absolute;
+    top: 165px;
+    left: 30px;
+    width: 140px;
+
+}
+#hor23-3 {
+    position: absolute;
+    top: 165px;
+    left: 100px;
+    width: 140px;
+
+}
+#diag1 {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 270px;
+    transform: rotate(45deg);
+
+}
+#diag2 {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 270px;
+    transform: rotate(-45deg);
+
+}
+#diag1_12 {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 180px;
+    transform: rotate(45deg);
+
+}
+#diag1_23 {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    width: 180px;
+    transform: rotate(45deg);
+
+
+}
+#diag2_12 {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    width: 180px;
+    transform: rotate(-45deg);
+
+}
+#diag2_23 {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    width: 180px;
+    transform: rotate(-45deg);
+
+
+}
+/*#diag1_1 {*/
+    /*position: absolute;*/
+    /*top: 130px;*/
+    /*left: 0;*/
+    /*width: 180px;*/
+    /*transform: rotate(45deg);*/
+
+/*}*/
+/*#diag1_2 {*/
+    /*position: absolute;*/
+    /*top: 60px;*/
+    /*left: 80px;*/
+    /*width: 180px;*/
+    /*transform: rotate(45deg);*/
+
+/*}*/
+/*#diag1_3 {*/
+    /*position: absolute;*/
+    /*top: 60px;*/
+    /*left: 0;*/
+    /*width: 180px;*/
+    /*transform: rotate(-45deg);*/
+
+/*}*/
+/*#diag1_4 {*/
+    /*position: absolute;*/
+    /*top: 130px;*/
+    /*left: 80px;*/
+    /*width: 180px;*/
+    /*transform: rotate(-45deg);*/
+/*}*/
+
+.stick {
+    transition: 1s;
+    display: none;
+}
+.stick-block {
+    display: block;
+}

@@ -1,0 +1,29 @@
+npm init -y
+npm i -D webpack webpack-cli
+echo > webpack.config.js
+
+# stucture of project
+  src/
+      app.js
+      js/
+      css/
+      html/
+  dist/
+  asserts/
+  index.html
+  package.json
+  webpack.config.js
+
+# Copy to dist webpack.config.js
+  const path = require("path");
+
+  module.exports = {
+    entry: "./src/app.js",
+    output: {
+      filename: "bundle.js",
+      path: path.resolve(__dirname, "dist")
+    }
+  };
+
+# index.html
+   <script src="./dist/bundle.js"></script>

@@ -1,0 +1,275 @@
+.main{
+    background-image: url("../img/space.jpg");
+    width: 1440px;
+    height: 100vh;
+    background-size: 100%;
+    /*position: relative;*/
+
+}
+.sun {
+    background-image: url(../img/sun.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    animation-name: orbitSun;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    animation-timing-function: linear;
+    position: absolute;
+}
+.planet1{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Меркурий.png);
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    animation-name: orbit1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.planet2{
+     width: 50px;
+     height: 50px;
+     background-image: url(../img/венера.ico);
+     background-size: contain;
+     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+     animation-name: orbit2;
+     animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.planet3{
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/земля.png");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    position: absolute;
+    animation-name: orbit3;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    margin: auto;
+}
+.planet4{
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/марс.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit4;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    bottom:0;
+}
+.planet5{
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/юпитер.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit5;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.planet6{
+    width: 90px;
+    height: 90px;
+    background-image: url("../img/сатурн.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit6;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.planet7 {
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/уран.gif");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit7;
+    animation-iteration-count: infinite;
+    animation-duration: 35s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.planet8 {
+    width: 70px;
+    height: 70px;
+    background-image: url("../img/нептун.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit8;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.planet9{
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/плутон.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbit9;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+.planetLuna{
+    width: 20px;
+    height: 24px;
+    background-image: url("../img/луна.png");
+    background-size: cover;
+    position: absolute;
+    animation-name: orbitLuna;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+}
+@keyframes orbitSun {
+
+    from{
+        transform: rotate(0deg);
+        }
+    to{
+        transform: rotate(360deg);
+        }
+}
+@keyframes orbit1 {
+
+    0% {
+        transform: rotate(0deg) translateX(50px) translateY(50px) rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(50px) translateY(50px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit2 {
+
+    from{
+        transform: rotate(0deg) translateX(80px) translateY(80px) rotate(360deg);}
+    to{
+        transform: rotate(360deg) translateX(80px) translateY(80px) rotate(-360deg);}
+}
+
+@keyframes orbit3 {
+    from {
+        transform: rotate(0deg) translateX(120px) translateY(120px) rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(120px) translateY(120px) rotate(-360deg);
+    }
+}
+@keyframes orbit4 {
+    from {
+        transform: rotate(0deg) translateX(150px) translateY(150px) rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(150px) translateY(150px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit5 {
+
+    from {
+        transform: rotate(0deg) translateX(180px) translateY(180px) rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(180px) translateY(180px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit6 {
+    from {
+        transform: rotate(0deg) translateX(210px) translateY(210px) rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(210px) translateY(210px) rotate(0deg);
+    }
+}
+
+@keyframes orbit7 {
+    from{
+        transform: rotate(0deg) translateX(240px) translateY(240px) rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg) translateX(360px) translateY(240px) rotate(-360deg);
+    }
+}
+@keyframes orbit8 {
+    from{
+        transform: rotate(0deg) translateX(230px) translateY(230px) rotate(360deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(230px) translateY(230px) rotate(-360deg);
+    }
+}
+@keyframes orbit9 {
+    from{
+        transform: rotate(0deg) translateX(230px) translateY(230px) rotate(360deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(230px) translateY(230px) rotate(-360deg);
+    }
+}
+
+@keyframes orbitLuna {
+    from {
+        transform: rotate(0deg) translateX(30px) translateY(30px) rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(30px) translateY(30px) rotate(-360deg);
+    }
+}

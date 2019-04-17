@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0
+}
+ul, li {
+  list-style: none;
+}
+.wrapper{
+    width: 1280px;
+    height: 1795px;
+    margin: 0 auto;
+    border: 1px solid
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.footer {
+  height: 320px;
+  width: 100%;
+  background: #137fa6;
+}
+.inner-footer-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.subscribe {
+  width: 334px;
+}
+
+.footer-form-title {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px 0px rgba(15, 111, 146, 0.75);
+

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "module6.js" defer></script>
+    <link rel="stylesheet" href="module6.css">
+</head>
+<body>
+<div class = "content">
+    <h2>Модуль 6 - Домашнее задание</h2>
+    <ol>
+        <li>Создайте объект <code>keyTrainer</code>, содержащий свойство <code>chars</code>, значением которого будет массив символов алфавита. <code>chars: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm']</code></li>
+        <li>Добавьте свойство <code>charCount</code> и метод <code>setCharCount</code>. Метод делает запрос через <code>prompt</code> о количестве символов, которые пользователь должен будет набрать.</li>
+        <li>Добавьте метод <code>checkPositiveInteger</code>, который проверяет является ли число целым положительным числом. Используйете метод <code>checkPositiveInteger</code> в методе <code>setCharCount</code> для проверки корректности ввода пользователем. Если ввод неверный, используйте цикл <code>while</code> для того чтобы запрашивать у пользователя верное число (целое положительное).</li>
+        <li>Создайте свойство <code>task</code> и метод <code>createTask</code>, который создает массив длинной в <code>charCount</code> и заполняет его случайными буквами из массива <code>chars</code>.</li>
+        <li>Создайте метод <code>startTask</code>, который с помощью <code>prompt</code> выводит строку из массива <code>task</code> и просит набрать эту строку в этом же <code>prompt</code> сообщении.</li>
+        <li>Результат, полученный методом <code>startTask</code> запишите в свойство <code>userInput</code> и затем сравните строки <code>userInput</code> и <code>task</code> посимвольно. Если симовол не совпадает, то запишите количество ошибок в свойство <code>userErrors</code>.</li>
+        <li>Выведите в консоль <code>userErrors</code>: eсли количество ошибок 0, то поздравьте, если отлично от ноля - напишите количество ошибок и пожелание успехов в следующем упражнении.</li>
+    </ol>
+
+        <p>Все свойства и методы должны быть внутри одного объекта <code>keyTrainer</code>, но вызов по очереди всех методов поместите внутри функции <code>run</code> и затем вызовите эту функцию.</p>
+        <button id = "module6But">Start</button>
+</div>
+
+    <!--<div>-->
+        <!-- <ol>
+        <li>
+          <p>Преобразовать всю текущую логику в один объект
+            <code>keyTrainer</code> с методами, методы обращаются к полям по
+            <code>this</code>.</p>
+        </li>
+        <li>
+          <p>Добавить функционал ввода кол-ва букв которые мы хотели бы потренировать.
+            Добавить все соотвествующие проверки введеного пользователем значения.
+            Теперь пользователь сам может выбирать себе кол-во символов на упражнение.</p>
+        </li>
+        <li>
+          <p>Создать метод обьекта
+            <code>nextChar()</code>, который выводит в консоль по очереди то кол-во случайных букв из текущего
+            алфавита, которое ввел пользователь.</p>
+        </li>
+        <li>
+          <p>Сделать вывод букв с помощью
+            <code>nextChar()</code> через
+            <code>prompt</code>, с проверкой того что введет пользователь. По окончанию упражнения посчитать
+            и вывести количество ошибок которые он сделал.</p>
+        </li>
+      </ol> -->
+    <!--</div>-->
+</body>
+</html>

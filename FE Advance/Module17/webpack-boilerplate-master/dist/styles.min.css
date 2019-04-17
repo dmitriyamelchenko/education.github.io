@@ -1,0 +1,199 @@
+.exerciseHomeWork{
+    width: 700px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 0 auto;
+}
+.exerciseHomeWork > p{
+    margin: 5px;
+}
+
+
+.container10Mod{
+    width: 250px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid;
+    height: 230px;
+}
+.gameField{
+    display: inline-block;
+    height: 230px;
+    padding: 0 20px;
+}
+.main10Mod {
+    height: 272px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid;
+    width: max-content;
+    padding: 20px;
+}
+h2{
+    margin: 0 auto;
+    width: max-content;
+}
+h4{
+    margin: 20px;
+}
+.timer {
+    font-size: 16px;
+}
+.exercise {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+}
+.exerciseText{
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    font-size: 23px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+p{
+    display: inline-block;
+}
+.usersInput{
+    line-height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    display: block;
+    margin: 6px auto;
+    text-align: center;
+}
+body{
+  margin:0;
+  padding: 0;
+  background-color: #564747;
+}
+img{
+  margin: 10px auto;
+  display:block;
+  border-radius: 10px;
+
+}
+
+button {
+  background-color: #272823;
+  height: 30px;
+  margin: 10px auto 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 4px 0;
+  color: indianred;
+}
+button>a{
+  color: yellow;
+}
+
+.buttons{
+  text-align: center;
+}
+.modules{
+  width: 80%;
+  background-color: #66d9ef;
+  padding: 27px;
+  margin: 0 auto;
+  box-shadow: 0 0 13px 1px;
+}
+.keyboard{
+  text-align: center;
+  background-color: #2d2525;
+  height: 229px;
+  width: 704px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+#slideThree{
+  width: 15px;
+}
+.keyboard__btn{
+  width: 54px;
+}
+.keyboard__btn--active{
+  background-color: #03a9f4;
+}
+#theEnd{
+  background-color: red;
+  font-size: 40px;
+  border: 3px solid yellow;
+  text-align: center;
+  margin: 0;
+}
+#begin{
+  /*composes: theEnd;*/
+  background-color: #4caf50;
+  font-size: 40px;
+  border: 3px solid yellow;
+  text-align: center;
+  margin: 0 0 2px 0;
+}
+
+
+.functions{
+    height: 140px;
+    margin:0;
+}
+.functions>li{
+    list-style: none;
+    display: block;
+    width: 13%;
+    height: 100px;
+    border: 1px solid;
+    float: left;
+    margin: 29px;
+    text-align: center;
+    border-radius: 5px;
+    /*background-color: #4caf50;*/
+}
+.functions>li>input{
+    margin: 1px 0 7px 0;
+    border: 1px solid grey;
+    /*border-radius: 5px;*/
+    line-height: 16px;
+}
+.functions>li>button{
+    width: 55%;
+    box-shadow: 0 0 10px 0 #715656;
+}
+.container{
+    padding-bottom: 50px;
+    background-color: #009688;
+    width: 90%;
+    margin: 0 auto;
+}
+input{
+    width: 80%;
+}
+ .result{
+    width: 80%;
+    min-height: 500px;
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 16px 1px black;
+}
+.userCard{
+    margin: 10px;
+    /*background-color: red;*/
+    background-color: #cc3c3c;
+    box-shadow: 1px 1px 9px 0 black;
+}
+.userCard>li{
+    list-style: none;
+}
+/*h2{*/
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*width: 80px;*/
+    /*color: #020202;*/
+    /*background-color: #009689;*/
+/*}*/
+h5 {
+    margin: 5px;
+}
+
+/*# sourceMappingURL=styles.min.css.map?091f73b1aa183942dc04593277758560*/

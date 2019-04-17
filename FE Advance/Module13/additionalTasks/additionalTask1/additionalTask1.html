@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./additionalTask1.js" defer></script>
+    <link rel="stylesheet" href="./additionalTask1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task">
+            <p>Напишите функцию validate которая проверяет поля формы
+                firstname и lastname и возвращает результат в виде
+                обьекта со свойствами 'first name' и 'last name'.</p>
+            <p>Кроме того, формат объекта: в свойства записывается буль-флаг
+                уведомляющий о статусе прохождения валидации для каждого поля.</p>
+                <pre>
+                 {
+                 'first name': true или false,
+                 'last name': true или false,
+                 }
+                </pre>
+
+            <ul>Критерии валидации:
+                <li>1)Имя. Допускается не более 3-х слов, а слова должны состоять
+                    только из букв латинского и кириллического алфавита.</li>
+
+                <li>2)Фамилия. Допускается не более 2-х слов, разделенных пробелами,
+                    дефисом или пробелами и дефисом. Слова должны состоять только из
+                    букв латинского и кириллического алфавита.</li>
+
+                <li>При клике на кнопку submit должна происходить проверка.
+                    Результат проверки, объект, выводить в консоль.</li>
+            </ul>
+        </div>
+        <div class="row">
+            <form action="#" class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="First name" id="first_name" type = text class="validate" required>
+                        <label for="first_name"></label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate" required>
+                        <label for="last_name"></label>
+                    </div>
+                    <div class="col s12">
+                        <button class="btn waves-effect waves-light" id="submit-btn" type="submit" name="action">submit</button>
+                    </div>
+                </div>
+            </form>
+            <ul class="results col s12">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

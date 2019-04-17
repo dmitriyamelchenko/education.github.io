@@ -1,0 +1,32 @@
+.keyboard{
+    display: inline-block;
+    padding: 30px;
+}
+.butKeyboard{
+    width: 50px;
+    height: 50px;
+    border: solid 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #302f38;
+}
+.butKeyboard>p{
+    color: white;
+}
+.butKeyboard:hover{
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    min-width: 650px;
+}
+.row>li{
+    background-color: #000000;
+    display: inline-block;
+}

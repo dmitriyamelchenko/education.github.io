@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./module15.css">
+    <script src = "./module15.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <article>
+        <h1>Модуль 15 - Домашнее задание</h1>
+        <ul
+        ><li>Создать две кнопки в HTML: <code>start</code> и <code>stop</code>.</li>
+            <li>Создать класс <code>Timer</code> с полями <code>startTime</code>, <code>stopTime</code> и
+                <code>interval</code>. Создать несколько экземпляров класса с разными значениями свойств,
+                вывести их в консоль.</li>
+            <li>Для класса <code>Timer</code> создать методы <code>start</code> и <code>stop</code>,
+                <code>getTime</code>.</li>
+            <li>Создать экземпляр класса <code>Timer</code>, пусть он называется <code>stopwatch</code>.</li>
+            <li>При нажатии на кнопку <code>start</code>, метод <code>stopwatch.start</code> сохраняет момент
+                нажатия в свойство <code>startTime</code>.</li>
+            <li>При нажатии на кнопку <code>stop</code>, метод <code>stopwatch.stop</code> сохраняет значение
+                текущего момента времени в <code>stopTime</code> и записывает разницу между <code>startTime</code>
+                и <code>stopTime</code> в <code>interval</code>. А метод <code>stopwatch.getTime</code> возвращает
+                значение поля <code>interval</code>, которое необходимо вывести в консоль.</li>
+            <li>Для класса <code>Timer</code> создать статический метод <code>timeToNY</code> который возвращает
+                кол-во дней от сегодня и до Нового Года.</li>
+        </ul>
+    </article>
+</div>
+<div class="myWork">
+    <div class="taskButtons">
+        <button id = "start">START</button>
+        <button id = "stop">STOP</button>
+        <button id = "interval">getTime</button>
+    </div>
+    <h3>Просмотреть исходники</h3>
+    <button id = "toGitHub"><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module15/">Перейти</a></button>
+    <h2>Дополнительные задания</h2>
+    <button id ="additionalTasks15"><a href="https://codepen.io/collection/AaJBxm/">Перейти для просмотра на CodePen</a></button>
+</div>
+</body>
+</html>

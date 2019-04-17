@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./module16.css">
+    <script src = "./module16.js" defer></script>
+</head>
+<body><div class="wrapper">
+    <h1>Модуль 16 - Домашнее задание</h1>
+    <ul>
+        <li>Создать базовый класс <code>Shape</code>, который принимает значения цвета и координат x и y: <code>color, initX, initY</code>.</li>
+        <li>Создать методы класса <code>Shape</code>:<ul><li><code>getColor()</code> - возвращает значение цвета.</li>
+            <li><code>setColor(val)</code> - получает и записывает новое значение цвета.</li>
+            <li><code>getCoords()</code> - возвращает координаты x и y.</li>
+            <li><code>moveTo(newX, newY)</code> - принимает 2 параметра, новые значения для x и y и записывает их.</li>
+        </ul>
+        </li>
+        <li>Создать класс <code>Rectangle</code> который расширяет класс <code>Shape</code>, принимая значения цвета и начальных координат,
+            как его родительский класс, и еще значение ширины и высоты сторон <code>initWidth</code> и <code>initHeight</code>:</li>
+        <li>Создать методы класса <code>Rectangle</code>:
+            <ul>
+                <li>
+                    <code>setWidth(newWidth)</code>и <code>setHeight(newHeight)</code> - получают ширину/высоту и записывают новые значения.</li>
+                <li><code>getDims()</code> - метод который возвращает значения width и height.</li>
+                <li><code>draw()</code> - метод который имитирует рисование прямоугольника используя методы <code>Shape</code> и <code>Rectangle</code>,
+                    выводя в консоль браузера следующей информации.
+                    <img src="./images/draw-rect.png" alt="">
+                </li>
+            </ul>
+        </li>
+        <li>Создать класс <code>Circle</code> который расширяет класс <code>Shape</code>, принимая значения цвета и начальных координат, как его
+            родительский класс, и еще значение радиуса <code>initRadius</code>:</li>
+        <li>Создать методы класса <code>Circle</code>:
+            <ul>
+                <li><code>getRadius()</code> - возвращает текущее значение радиуса.</li>
+                <li><code>setRadius(val)</code> - получает значение и присваивает его радиусу.</li>
+                <li><code>draw()</code> - метод который имитирует рисование круга используя методы <code>Shape</code> и <code>Circle</code>,
+                    выводя в консоль браузера следующей информации.
+                    <img src="./images/draw-circle.png" alt="">
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>!!!Для просмотра результов работы программы перейдите в консоль браузера</h3>
+    <h2>Исходный код</h2>
+    <button id = 'mod16But'><a href="https://github.com/dmitriyamelchenko/dmitriyamelchenko.github.io/tree/master/FE%20Advance/Module16/">Перейти для просмотра</a></button>
+</div>
+</body>
+</html>

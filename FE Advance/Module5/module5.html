@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="module5.css">
+    <script src="module5.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <h2>Модуль 5 - Домашнее задание</h2>
+        <ul>Массив строк клавиатуры из прошлого модуля преобразовать в объект keyboard следующего формата:
+            <li>поле layouts содержит обьекты раскладок языков, в каждом из которых по 3 массива строк клавиатуры</li>
+            <li>поле langs содержит массив доступных языков</li>
+            <li>поле currentLang будет содержать язык который сейчас выбран.</li>
+        </ul>
+        <div class="module5Img"></div>
+        <p>Написать скрипт который на старте спрашивает пользователя какой язык он хочет использовать на тренажере.
+            Это обычный prompt в котором написано en-0, ru-1, ua-2. Пользователь вводит 0, 1 или 2, если введено
+            другое значение то вывести alert о том что был выбран не доступный язык и повторить prompt до того момента
+            пока не будет введено подходящее значание языка или нажат cancel. При cancel прекратить выполнение скрипта.</p>
+
+        <p>Результат выбора языка пользователем записать в обьект keyboard в поле currentLang как строку, 0 это en, 1 это ru, 2 это ua.</p>
+        <p>Модифицировать функцию getRandCharInAlph() так, чтобы она возвращала случайную букву из выбраного пользователем алфавита.</p>
+
+        <button id = "module5But">Start</button>
+
+        <h3>!!!Результаты выполнения можно просмотреть в консоли текущей страницы!!!</h3>
+    </div>
+
+</body>
+</html>

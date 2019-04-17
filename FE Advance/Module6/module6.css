@@ -1,0 +1,25 @@
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    background-color: darkgrey;
+    height: 100vh;
+    text-align: justify;
+}
+.content>h2{
+    text-align: center;
+    margin: 0;
+    border-bottom: solid 1px;
+}
+body{
+    margin:0;
+}
+#module6But{
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 7px 7px 9px 1px;
+}

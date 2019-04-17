@@ -1,0 +1,1 @@
+"use strict";var a,b=(a=[1,2,3,4,5]).map(function(a){return a+1}),c=(b=(a=[1,2,3,4])[0],a[1]),d=a[2];console.log(c);

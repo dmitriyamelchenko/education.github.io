@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.functions{
+    height: 140px;
+    margin:0;
+}
+.functions>li{
+    list-style: none;
+    display: block;
+    width: 15%;
+    height: 100px;
+    border: 1px solid;
+    float: left;
+    margin: 29px;
+    text-align: center;
+    border-radius: 5px;
+    /*background-color: #4caf50;*/
+}
+.functions>li>input{
+    margin: 1px 0 7px 0;
+    border: 1px solid grey;
+    /*border-radius: 5px;*/
+    line-height: 16px;
+}
+.functions>li>button{
+    width: 50%;
+    box-shadow: 0 0 10px 0 #715656;
+}
+.container{
+    padding-bottom: 50px;
+    background-color: #009688;
+    width: 90%;
+    margin: 0 auto;
+}
+input{
+    width: 80%;
+}
+ .result{
+    width: 80%;
+    min-height: 500px;
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 16px 1px black;
+}
+.userCard{
+    margin: 10px;
+    /*background-color: red;*/
+    background-color: #cc3c3c;
+    box-shadow: 1px 1px 9px 0 black;
+}
+.userCard>li{
+    list-style: none;
+}
+h2{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    color: #020202;
+    background-color: #009689;
+}
+h3 {
+    margin: 5px;
+}

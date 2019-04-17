@@ -1,0 +1,66 @@
+.exerciseHomeWork{
+    width: 700px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 0 auto;
+}
+.exerciseHomeWork > p{
+    margin: 5px;
+}
+
+
+.container10Mod{
+    width: 250px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid;
+    height: 230px;
+}
+.gameField{
+    display: inline-block;
+    height: 230px;
+    padding: 0 20px;
+}
+.main10Mod {
+    height: 272px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid;
+    width: max-content;
+    padding: 20px;
+}
+h2{
+    margin: 0 auto;
+    width: max-content;
+}
+h4{
+    margin: 20px;
+}
+.timer {
+    font-size: 16px;
+}
+.exercise {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    width: max-content;
+}
+.exerciseText{
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    font-size: 23px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+p{
+    display: inline-block;
+}
+.usersInput{
+    line-height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    display: block;
+    margin: 6px auto;
+    text-align: center;
+}

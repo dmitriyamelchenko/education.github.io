@@ -1,0 +1,29 @@
+pre{
+    font-size: 15px;
+}
+header{
+    margin: 0 auto;
+    display: block;
+    width: 430px;
+}
+
+.module3Keyboard{
+    background-image: url(img/keyboard.jpg);
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.container>p{
+    text-align: center;
+}
+.container>h3{
+    text-align: center;
+}
+body{
+    font-family: Times New Roman sans-serif;
+    font-size: 15px;
+}

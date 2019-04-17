@@ -1,0 +1,62 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+#block{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    /*margin: 0 auto;*/
+    position: relative;
+    /*perspective: 800px;*/
+}
+#button {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    float: left;
+    outline: none;
+    margin: 5px;
+
+}
+#button:active {
+    box-shadow: inset 0 0 3px 3px black;
+    background-color: red;
+    border: none;
+}
+.block-style {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    animation: anim-name 1s;
+    transform: scale(1, 1);
+}
+#inp {
+    width: 260px;
+    height: 50px;
+    font-family: "Comic Sans MS", serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 5px;
+}
+.gameover-style {
+    color: red;
+}
+.win-style {
+    color: green;
+}
+@keyframes anim-name {
+    0% {}
+    70% {
+        border-radius: 25px;
+        transform: scale(1.5, 1.5);
+    }
+    100%{
+        border-radius: 15px;
+        transform: scale(1, 1);
+    }
+}
